@@ -1,0 +1,6 @@
+- [ ] ctrl+shift+p -> snippets -> VSCode
+- [ ] $1, $2 for tabstops.
+  - [ ] Put same number for multi-cursors
+- [ ] ${1:PlaceHolder} : For placeholder.
+- [ ] ${1|choice1,choice2,choice3|} : To add choices while autocompletion.
+- [ ] Specify scope to specify filetype.

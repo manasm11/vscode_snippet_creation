@@ -1,0 +1,27 @@
+{
+	"Print with f-string": {
+		"prefix": "print",
+		"body": [
+			"print(f'$1')",
+			"$2"
+		],
+		"description": "Print with f-string",
+		"scope": "python"
+	},
+	"Create New Object": {
+		"prefix": "create",
+		"body": [
+			"${1:variable_name} = ${2:ModelClass}.objects.create(",
+			"\t${3:attr1}=${3:value1},",
+			")",
+			"$4"
+		],
+		"description": "Create New Object"
+	},
+	"Print Hello Or Bye": {
+		"prefix": "phello",
+		"body": "print('${1|hello,bye|}')",
+		"description": "Demo of choice autocomplete",
+		"scope": "python"
+	}
+}
